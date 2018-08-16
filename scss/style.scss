@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+}
+.well{
+  margin:40px;
+  background-color: black;
+  color: white; 
+  padding: 40px;
+}
+.btn {
+  font-size: 22px;
+  font-weight: bold;
+}
+img {
+  width: 20%;
+  height: 20%;
+  float: right;
+  margin-right:200px;
+}
+#text {
+  text-align: left; 
+  padding:20px;
+}
+.temp {
+  padding: 20px;
+  margin-right: 20px;
+}
+#location{
+  text-align:center;
+}
+.load-cont {
+  padding-left:45%;
+}
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+  
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
